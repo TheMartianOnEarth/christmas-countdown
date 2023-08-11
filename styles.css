@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inconsolata:wght@800&family=Inter&family=Lexend:wght@300&family=Poppins:ital,wght@0,200;0,300;0,600;1,400&display=swap');
+
+
+body {
+    color: white;
+    user-select: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    height: 100%;
+    padding-top: 15em;
+}
+#bg-video {
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+
+    left: 0;
+    right: 0;
+    top: 0;
+
+    z-index: -1;
+}
+
+#title {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    background-color: rgb(0, 0, 0, 0);
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    max-width: 100%;
+    justify-content: center;
+
+    column-gap: 5%;
+}
+
+.grid-itemA {
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+
+    font-family: 'Inconsolata', sans-serif;
+    text-shadow: 4px 3px 0 black;
+}
+
+.grid-itemB {
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+
+    justify-self: center;
+}
